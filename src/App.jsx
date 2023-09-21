@@ -1,5 +1,5 @@
 import Header from "./components/Header.jsx";
-import Footer from "./components/Footer.jsx";
+// import Footer from "./components/Footer.jsx";
 import LeftContainer from "./layouts/LeftContainer.jsx";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
         {/* <Visualization /> */}
 
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </div>
   );
