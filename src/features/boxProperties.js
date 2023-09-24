@@ -7,7 +7,6 @@ const initialState = [
                 name: "Border radius",
                 value: 25,
                 type: "range",
-                slice: "boxProperties",
                 minMax: [0,250]
             },
             {
@@ -16,7 +15,6 @@ const initialState = [
                 value: 250,
                 type: "range",
                 minMax: [0,500],
-                slice: "boxProperties"
             },
             {
                 inputNumber: 3,
@@ -24,7 +22,6 @@ const initialState = [
                 value: 250,
                 type: "range",
                 minMax: [0,500],
-                slice: "boxProperties"
             },
             {
                 inputNumber: 4,
@@ -32,7 +29,6 @@ const initialState = [
                 value: "#fff",
                 type: "color",
                 minMax: [-250,250],
-                slice: "boxProperties"
             }
         ]
 
