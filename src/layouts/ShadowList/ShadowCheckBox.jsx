@@ -6,7 +6,7 @@ export default function ShadowCheckBox({name, shadowID}) {
     const checkboxShadow = useSelector(state => state.shadows.find(
         shadow => shadow.id === shadowID
     ))
-    console.log(checkboxShadow);
+    // console.log(checkboxShadow);
 
     return (
         <>
