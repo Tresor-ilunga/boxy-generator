@@ -45,7 +45,7 @@ export default function Shadow({panelNumber, shadow}) {
                 src={chevron} alt="chevron" />
             </button>
             {toggleShadow && <>
-                <div className="flex items-end px-6 py-4">
+                <div className="flex items-end px-6 pt-4">
                     <ShadowCheckBox name={"active"} shadowID={shadow.id} />
                     <ShadowCheckBox name={"inset"} shadowID={shadow.id} />
                     <button
