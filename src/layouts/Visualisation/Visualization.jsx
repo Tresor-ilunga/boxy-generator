@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 export default function Visualization() {
     const boxProperties = useSelector(state => state.boxProperties)
     const shadowValues = useSelector(state => state.shadows)
-    console.log(getBoxShadowValue(shadowValues));
+    // console.log(getBoxShadowValue(shadowValues));
 
     return (
         <div className="flex flex-col p-5 ml-10 lg:ml-28">

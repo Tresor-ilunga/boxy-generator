@@ -3,7 +3,7 @@ import { createPortal } from "react-dom"
 import ModalResult from "./ModalResult.jsx"
 
 export default function ModalBtn() {
-    const [showModal, setShowModal] = useState(true)
+    const [showModal, setShowModal] = useState(false)
 
     return (
         <>
