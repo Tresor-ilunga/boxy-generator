@@ -30,7 +30,7 @@ const initialState = [
             },
             {
                 inputNumber: 4,
-                name: "spread offset",
+                name: "Spread offset",
                 value: -3,
                 type: "range",
                 minMax: [-250,250]
